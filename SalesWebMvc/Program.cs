@@ -24,7 +24,8 @@ var localizationOptions = new RequestLocalizationOptions
 
 
 
-    builder.Services.AddScoped<SellerService>();
+builder.Services.AddScoped<SellerService>();
+builder.Services.AddScoped<SalesRecordService>();
 builder.Services.AddScoped<DepartmentService>();
 
 
